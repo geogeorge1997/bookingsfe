@@ -15,9 +15,6 @@ const MessageParser = ({ children, actions }) => {
   const timerFlag = useSelector((state) => state.chatbotReducer.timerFlag)
 
   useEffect(() => {
-  }, []);
-
-  useEffect(() => {
 
     if (initialMessageFlag) {
       setTimeout(() => {
