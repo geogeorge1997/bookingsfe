@@ -1,4 +1,3 @@
-export { setLoadCount } from './chatbot/ChatbotAction'
 export { setInitialMessageFlag } from './chatbot/ChatbotAction'
 export { setWelcomeMessageFlag } from './chatbot/ChatbotAction'
 export { setCalendarMessageFlag } from './chatbot/ChatbotAction'

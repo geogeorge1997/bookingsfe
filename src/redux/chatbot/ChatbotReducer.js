@@ -1,5 +1,4 @@
 import { 
-  SET_LOAD_COUNT,
   SET_INITIAL_MESSAGE_FLAG, 
   SET_WELCOMEL_MESSAGE_FLAG,
   SET_CALENDAR_MESSAGE_FLAG, 
@@ -11,7 +10,6 @@ import {
   SET_AGE } from './ChatbotActionTypes'
 // initializing state
 const initialState = {
-  loadCount: 0,
   initialMessageFlag: false,
   welcomeMessageFlag: false,
   calendarMessageFlag: false,
@@ -25,11 +23,6 @@ const initialState = {
 
 const chatbotReducer = (state = initialState, action) => {
   switch (action.type) {
-    case SET_LOAD_COUNT:
-      return {
-        ...state,
-        loadCount: action.payload
-      }
     case SET_INITIAL_MESSAGE_FLAG:
       return {
         ...state,

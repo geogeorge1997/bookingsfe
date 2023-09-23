@@ -1,5 +1,4 @@
 import { 
-    SET_LOAD_COUNT,
     SET_INITIAL_MESSAGE_FLAG, 
     SET_WELCOMEL_MESSAGE_FLAG,
     SET_CALENDAR_MESSAGE_FLAG, 
@@ -9,14 +8,6 @@ import {
     SET_CALENDAR, 
     SET_NAME, 
     SET_AGE } from './ChatbotActionTypes'
-
-
-export const setLoadCount = (parameter) => {
-  return {
-    type: SET_LOAD_COUNT,
-    payload: parameter
-  }
-}
 
 export const setInitialMessageFlag = (parameter) => {
   return {
