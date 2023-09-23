@@ -9,7 +9,6 @@ function App () {
   return (
     <Provider store={store}>
       <div className="wrapper">
-      <h1>Application</h1>
       <RouterItems></RouterItems>
     </div>
     </Provider>
