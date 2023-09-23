@@ -1,11 +1,11 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 
-import loginReducer from './login/LoginReducer'
+import chatbotReducer from './chatbot/ChatbotReducer'
 
 // Combining burgerReducer and pizzaReducer in rootReducer
 const rootReducer = combineReducers({
-  loginReducer,
+  chatbotReducer,
 })
 
 const middlewares = [thunk]
