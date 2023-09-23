@@ -1,0 +1,12 @@
+.react-chatbot-kit-chat-container {
+    border: 3px solid red;
+    border-radius: 1px;
+}
+
+@media (max-width: 800px) and (orientation: portrait) {
+    .react-chatbot-kit-chat-container {
+        width: 100%;
+        height: 100vh;
+    }
+  }
+  
